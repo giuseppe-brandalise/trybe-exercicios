@@ -1,0 +1,26 @@
+TODAS TAGS FICAM ENTRE <tag>
+TAGS COM * TEM QUE SER FECHADAS (adicionar </tag>)
+
+  1- <!DOCTYPE html> - define que é um arquivo HTML;
+  2- <html lang="pt-br"> - define a linguagem da página;
+  3* <head> - área que define o não visivel na página;
+    a- <meta charset="UTF-8"> - define o alfabeto da página;
+    b* <title> - titulo que aparece na aba;
+  4* <body> - corpo da página que apresenta suas informações;
+    a* <h1> - tipos de titulos, quando menor o número maior o texto, vai até <h6>;
+    b* <p> - Cria parágrafos;
+    c- <br> - Quebra linhas;
+    d* <strong> - Deixa o texto entre ele em negrito;
+    e* <em> - Deixa o texto entre ele em "italico";
+    f* <ul> & <ol> - Cria listas, o <ul> faz listas não ordenadas (pontinhos) e o <ol> faz listas ordenadas (numeros);
+      * <li> - cria um item da lista.
+    g- <img scr="caminho/link até a imagem" alt="descrição da imagem" widht="largura da img"> - Coloca uma imagem;
+    
+
+
+
+
+EXTENSÕES
+Material Icon
+Live Server
+Auto Rename Tag
