@@ -15,8 +15,11 @@ TAGS COM * TEM QUE SER FECHADAS (adicionar </tag>)
     f* <ul> & <ol> - Cria listas, o <ul> faz listas não ordenadas (pontinhos) e o <ol> faz listas ordenadas (numeros);
       * <li> - cria um item da lista.
     g- <img scr="caminho/link até a imagem" alt="descrição da imagem" widht="largura da img"> - Coloca uma imagem;
+    h* <a href="Link" target="_blank"(abre em uma nova aba, caso se queira)> - Adiciona um link externo em um texto ou para um id de uma tag
     
 
+    
+***id*** = propriedade que da uma identificação para uma tag
 
 
 
