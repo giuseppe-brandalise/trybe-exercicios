@@ -1,4 +1,11 @@
 A tag <style> cria um estilo para todas os objetos de uma determinada tag (<h1>; <h2>; <p>; body; etc,).
+TEM COMO COLOCAR A PROPRIEDADE style="" DIRETAMENTE EM UMA TAG PARA AFETAR APENAS ELA (style="background-colocar: teal; font-family: Verdana, Geneva, Tahoma, sans-serif") --- EM GERAL UMA MÁ PRÁTICA ---
+É POSSIVEL CRIAR UMA ARQUIVO style.css E LINKAR AS PÁGINAS A ELE COMO FORMA DE TER EM TODAS PÁGINAS POSSÍVEIS
+^^^^^ <link rel="stylesheet" type="text/css" href="caminho até ele">
+
+
+
+
 color: (determina a cor) - pode determina de uma forma básica (red, green, blue), ou pelo RGB (000 000 000)
 background-color: (determina a cor do background) - pode determina de uma forma básica (red, green, blue), ou pelo RGB (000 000 000)
 
