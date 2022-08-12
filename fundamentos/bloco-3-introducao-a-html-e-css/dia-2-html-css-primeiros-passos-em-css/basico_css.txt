@@ -1,0 +1,24 @@
+A tag <style> cria um estilo para todas os objetos de uma determinada tag (<h1>; <h2>; <p>; body; etc,).
+TEM COMO COLOCAR A PROPRIEDADE style="" DIRETAMENTE EM UMA TAG PARA AFETAR APENAS ELA (style="background-colocar: teal; font-family: Verdana, Geneva, Tahoma, sans-serif") --- EM GERAL UMA MÁ PRÁTICA ---
+É POSSIVEL CRIAR UMA ARQUIVO style.css E LINKAR AS PÁGINAS A ELE COMO FORMA DE TER EM TODAS PÁGINAS POSSÍVEIS
+^^^^^ <link rel="stylesheet" type="text/css" href="caminho até ele">
+
+
+
+
+color: (determina a cor) - pode determina de uma forma básica (red, green, blue), ou pelo RGB (000 000 000)
+background-color: (determina a cor do background) - pode determina de uma forma básica (red, green, blue), ou pelo RGB (000 000 000)
+
+PARA MODIFICAR UMA TAG ESPECICA USAR id=""
+
+USAR class="" PARA MODIFICAR COISAS VARIADAS DE UMA VEZ
+
+font-size: (determina o tamanho da fonte de uma string) - "px" para tamnho já determinado; "em" para multiplicar o tamanho pelo o determinado para o body
+font-family: (determina a fonte do texto da string - de acordo com o computador da pessoa - é possivel colocar fontes reservas para o caso de um computador não possuir a primeira fonte)
+font-weight: bold  (deixa o texto em negrito)
+font-style: italic  (deixa o texto em italico)
+line-height: (espaçamento entre as linhas)
+text-align: (alinhamento do texto - center; justify; left; right; etc.)
+text-decoration: underline (deixa o texto sublinhado)
+
+
