@@ -6,3 +6,12 @@ PARA MODIFICAR UMA TAG ESPECICA USAR id=""
 
 USAR class="" PARA MODIFICAR COISAS VARIADAS DE UMA VEZ
 
+font-size: (determina o tamanho da fonte de uma string) - "px" para tamnho já determinado; "em" para multiplicar o tamanho pelo o determinado para o body
+font-family: (determina a fonte do texto da string - de acordo com o computador da pessoa - é possivel colocar fontes reservas para o caso de um computador não possuir a primeira fonte)
+font-weight: bold  (deixa o texto em negrito)
+font-style: italic  (deixa o texto em italico)
+line-height: (espaçamento entre as linhas)
+text-align: (alinhamento do texto - center; justify; left; right; etc.)
+text-decoration: underline (deixa o texto sublinhado)
+
+
