@@ -1,0 +1,28 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+.class1 {
+    background-color: rgba(43, 159, 226, 0.596);
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+ul {
+    font-style: oblique;
+    line-height: 20px;
+    text-align: center;
+}
+#marrom {
+    text-decoration: line-through;
+}
+
+.class1 {
+    background-color: black;
+}
+
+h1 {
+    background-color: orange;
+}
