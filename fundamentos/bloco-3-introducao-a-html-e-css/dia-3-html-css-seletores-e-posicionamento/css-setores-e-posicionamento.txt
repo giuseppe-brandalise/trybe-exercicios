@@ -13,7 +13,7 @@ TAG:
 -margin: - altera a margem
 -padding - altera o padding
 -border - altera a borda
--top/left/righ: quão próximo o elemento ficará próxima da respectiva posição
+-top/left/righ/bottom: quão próximo o elemento ficará próxima da respectiva posição
 -z-index: determina quem ficará a frente entre os elementos absolut. Quanto maior mais a frente ficará
 -float: torna um elemento em flutuante. Ex.: imagens num parágrafo que o texto fica ao lado de toda ela
 
