@@ -1,0 +1,10 @@
+TAG:
+<span class=""> - adiciona uma classe a um elemento e deixa ele in line (na mesma linha)
+<div class=""> - adiciona uma classe a um elemento e deixa ele em estilo block (um em cima do outro)
+
+<------>
+
+widht: - também pode limitar a largura máxima de um texto
+height: - também pode limitar a altura máxima de um texto
+overflow: invisible - todo e qualquer conteudo que passe do seu limite fica escondido (pode especificar com -y para altura e -x para largura)
+overflow: auto - esconde o conteudo que passe do seu limite mas adiciona um scroll para visualizar internamente na pagina
