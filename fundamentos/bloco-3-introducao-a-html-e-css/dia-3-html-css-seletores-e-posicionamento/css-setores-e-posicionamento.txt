@@ -17,3 +17,9 @@ TAG:
 -z-index: determina quem ficará a frente entre os elementos absolut. Quanto maior mais a frente ficará
 -float: torna um elemento em flutuante. Ex.: imagens num parágrafo que o texto fica ao lado de toda ela
 
+<---->
+
+PSEUDOCLASSES
+
+hover: - acontece quando o mouse passar em cima do elemento
+active - acontece quando estiver clicando no elemento
