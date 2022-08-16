@@ -26,3 +26,11 @@ li {
 li em {
     font-weight: bold;
 }
+
+ul:nth-child(6) li:nth-child(1), li:nth-child(2), li:nth-child(3){
+    color: blue;
+}
+
+.pink-back {
+    background-color: pink;
+}
