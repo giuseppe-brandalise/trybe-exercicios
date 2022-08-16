@@ -34,3 +34,23 @@ ul:nth-child(6) li:nth-child(1), li:nth-child(2), li:nth-child(3){
 .pink-back {
     background-color: pink;
 }
+
+#stack:hover {
+    background-color: orange;
+}
+
+#w3:hover {
+    background-color: green;
+}
+
+#mdn:hover {
+    background-color: black;
+}
+
+#devdocs:hover {
+    background-color: yellow;
+}
+
+#trybe:hover {
+    background-color: green;
+}
