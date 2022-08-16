@@ -23,6 +23,7 @@ PSEUDOCLASSES
 
 hover: - acontece quando o mouse passar em cima do elemento
 active: - acontece quando estiver clicando no elemento
+nth-of-type: - acontece com o elemento que seja o filho numero X de um elemento pai
 
 
 <tag>."classe" - dessa forma afeta apenas os elementos de uma tag e classe esfecifica.
