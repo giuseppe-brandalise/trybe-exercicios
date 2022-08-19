@@ -1,0 +1,30 @@
+TAG:
+<span class=""> - adiciona uma classe a um elemento e deixa ele in line (na mesma linha)
+<div class=""> - adiciona uma classe a um elemento e deixa ele em estilo block (um em cima do outro)
+
+<------>
+
+-widht: - também pode limitar a largura máxima de um texto
+-height: - também pode limitar a altura máxima de um texto
+-overflow: invisible - todo e qualquer conteudo que passe do seu limite fica escondido (pode especificar com -y para altura e -x para largura)
+-overflow: auto - esconde o conteudo que passe do seu limite mas adiciona um scroll para visualizar internamente na pagina
+-position: absolute - coloca o elemento no topo esquerda da página
+-position: fixed - fixa o elemento na tela. Ao se scrollar ele continua aparecendo naquela posição especifica
+-margin: - altera a margem
+-padding - altera o padding
+-border - altera a borda
+-top/left/righ/bottom: quão próximo o elemento ficará próxima da respectiva posição
+-z-index: determina quem ficará a frente entre os elementos absolut. Quanto maior mais a frente ficará
+-float: torna um elemento em flutuante. Ex.: imagens num parágrafo que o texto fica ao lado de toda ela
+
+<---->
+
+PSEUDOCLASSES
+
+:hover - acontece quando o mouse passar em cima do elemento
+:active - acontece quando estiver clicando no elemento
+:nth-of-type - acontece com o elemento que seja o filho numero X de um elemento pai
+
+
+<tag>."classe" - dessa forma afeta apenas os elementos de uma tag e classe esfecifica.
+<tag> <tag> <tag> - descendencia, só afeta a ultima tag que estar dentro das outras tags anteriores, na ordem indicada.
