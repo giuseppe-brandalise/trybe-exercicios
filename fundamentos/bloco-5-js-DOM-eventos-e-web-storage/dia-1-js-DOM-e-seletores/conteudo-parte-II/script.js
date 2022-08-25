@@ -9,3 +9,8 @@ secondParagraph.innerText = "Eu não sou criativo";
 
 const subtitle = document.getElementById("subtitle");
 subtitle.innerText = "Ó vc aí!"
+
+const allParagraphs = document.getElementsByClassName("classp");
+console.log(allParagraphs);
+
+document.getElementsByTagName("h4").style.color = "blue";
