@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+    
+    <style>
+      main, section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header> 
+      <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    </header>    
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p id="futureMe">-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+        /*
+        Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
+        - document.getElementById()
+        - document.getElementsByClassName()
+        - document.getElementsByTagName()
+        */
+        const pFuture = document.getElementById('futureMe');
+        function futureMe() {
+            pFuture.innerText = 'Já adaptado ao mercado de trabalho, fora da casa dos meus pais e me preparando para entrar em uma graduação.';
+        }
+        futureMe();
+
+        const yellowSquare = document.getElementsByClassName('main-content')[0];
+        const newColor = 'rgb(76, 164, 109)';
+        function changeToGreen() {
+          yellowSquare.style.backgroundColor = newColor;
+        }
+        changeToGreen();
+
+        const redSquare = document.getElementsByClassName('center-content')[0];
+        function changeToWhite() {
+          redSquare.style.backgroundColor = 'white';
+        }
+        changeToWhite();
+
+        function correctH1() {
+          document.getElementsByTagName('h1')[0].innerText = 'Exercício 5.1 - JavaScript';
+        }
+        correctH1();
+
+        const tagP = document.getElementsByTagName('p');
+        function changeUpperCase() {
+          for (element of tagP) {
+            element.innerText = element.innerText.toUpperCase();
+          }
+        }
+        changeUpperCase();
+
+        function printContent() {
+          for (element of tagP) {
+            console.log(element.innerText);
+          }
+        }
+        printContent();
+    </script>
+  </body>
+</html>
