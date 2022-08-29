@@ -1,5 +1,5 @@
-// const paragraph = document.getElementById("paragraph");
-// paragraph.style.color = "red";
+const paragraph = document.getElementById("paragraph");
+paragraph.style.color = "red";
 
 const title = document.getElementById("page-title");
 title.innerText = "Os Miseráveis";
@@ -11,11 +11,9 @@ const subtitle = document.getElementById("subtitle");
 subtitle.innerText = "Ó vc aí!"
 
 const allParagraphs = document.getElementsByClassName("classp");
-for (let element in allParagraphs) {
-    allParagraphs[element].style.color = 'blue';
+for (let element of allParagraphs) {
+    element.style.color = 'blue';
 }
 
-const subtitleColor = document.getElementsByTagName("h4");
-for (let h4s in subtitleColor) {
-    subtitleColor[h4s].style.color = 'red';
-}
+const subtitleColor = document.getElementsByTagName("h4")[0];
+subtitleColor.style.color = 'red';
