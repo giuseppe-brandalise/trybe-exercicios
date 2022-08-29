@@ -47,8 +47,6 @@
         - document.getElementById()
         - document.getElementsByClassName()
         - document.getElementsByTagName()
-        5. Crie e execute uma função que modifique todo o texto da tag <p> para maiúsculo.
-        6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
         */
         const pFuture = document.getElementById('futureMe');
         function futureMe() {
@@ -81,6 +79,13 @@
           }
         }
         changeUpperCase();
+
+        function printContent() {
+          for (element of tagP) {
+            console.log(element.innerText);
+          }
+        }
+        printContent();
     </script>
   </body>
 </html>
