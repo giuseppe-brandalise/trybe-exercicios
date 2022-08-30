@@ -8,3 +8,5 @@ document.getElementById('primeiroFilhoDoFilho').innerText = 'Primeiro filho do f
 console.log(document.getElementById('pai').firstElementChild);
 
 console.log(document.getElementById('elementoOndeVoceEsta').previousElementSibling);
+
+console.log(document.getElementById('elementoOndeVoceEsta').nextSibling);
