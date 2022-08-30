@@ -12,3 +12,5 @@ console.log(document.getElementById('elementoOndeVoceEsta').previousElementSibli
 console.log(document.getElementById('elementoOndeVoceEsta').nextSibling);
 
 console.log(document.getElementById('elementoOndeVoceEsta').nextElementSibling);
+
+console.log(document.getElementById('pai').lastElementChild.previousElementSibling);
