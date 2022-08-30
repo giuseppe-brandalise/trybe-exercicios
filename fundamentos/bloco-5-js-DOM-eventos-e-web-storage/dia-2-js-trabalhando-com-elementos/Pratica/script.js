@@ -18,3 +18,7 @@ console.log(document.getElementById('pai').lastElementChild.previousElementSibli
 let irmao = document.createElement('p');
 irmao.innerText = 'Irmão';
 pai.appendChild(irmao);
+
+let filho = document.createElement('p');
+filho.innerText = 'Filho';
+elementoOndeVoceEsta.appendChild(filho);
