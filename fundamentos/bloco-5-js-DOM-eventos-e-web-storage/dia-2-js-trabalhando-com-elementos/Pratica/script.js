@@ -22,3 +22,7 @@ pai.appendChild(irmao);
 let filho = document.createElement('p');
 filho.innerText = 'Filho';
 elementoOndeVoceEsta.appendChild(filho);
+
+let filhoDoFilhoDoFilho = document.createElement('p');
+filhoDoFilhoDoFilho.innerText = 'Filho do filho do filho';
+primeiroFilhoDoFilho.appendChild(filhoDoFilhoDoFilho);
