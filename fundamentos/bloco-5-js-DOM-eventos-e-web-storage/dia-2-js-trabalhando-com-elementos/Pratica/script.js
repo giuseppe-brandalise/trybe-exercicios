@@ -27,4 +27,8 @@ let filhoDoFilhoDoFilho = document.createElement('p');
 filhoDoFilhoDoFilho.innerText = 'Filho do filho do filho';
 primeiroFilhoDoFilho.appendChild(filhoDoFilhoDoFilho);
 
-console.log(document.getElementsByTagName('p')[0].parentNode.parentNode.nextElementSibling)
+console.log(document.getElementsByTagName('p')[0].parentNode.parentNode.nextElementSibling);
+
+
+
+
