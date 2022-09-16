@@ -28,4 +28,7 @@ addKey(lesson2, 'turno', 'noite');
 // listKeys(lesson1);
 
 const newObj = (lesson1, lesson2, lesson3) => ({lesson1, lesson2, lesson3});
-console.log(newObj(lesson1, lesson2, lesson3));
+const lessons = newObj(lesson1, lesson2, lesson3);
+
+const sumStudents = () => lessons.lesson1.numeroEstudantes + lessons.lesson2.numeroEstudantes + lessons.lesson3.numeroEstudantes;
+console.log(sumStudents());
