@@ -33,5 +33,14 @@ const lessons = newObj(lesson1, lesson2, lesson3);
 // const sumStudents = () => lessons.lesson1.numeroEstudantes + lessons.lesson2.numeroEstudantes + lessons.lesson3.numeroEstudantes;
 // console.log(sumStudents());
 
-const getValueByNumber = (lesson, number) => Object.values(lesson)[number];
-console.log(getValueByNumber(lesson1, 0));
+// const getValueByNumber = (lesson, number) => Object.values(lesson)[number];
+// console.log(getValueByNumber(lesson1, 0));
+
+const verifyPair = (object, key, value) => {
+    if (object[key] === value) {
+        return true;
+    }
+    return false;
+}
+console.log(verifyPair(lesson3, 'turno', 'noite'));
+console.log(verifyPair(lesson3, 'materia', 'Maria Clara'));
