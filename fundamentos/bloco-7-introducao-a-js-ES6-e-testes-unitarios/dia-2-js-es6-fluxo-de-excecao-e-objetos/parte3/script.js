@@ -18,13 +18,14 @@ const lesson3 = {
   turno: 'noite',
 };
 
-// const addKey = (object, key, value) => object[key] = value
-// console.log(lesson2);
-// addKey(lesson2, 'turno', 'noite');
-// console.log(lesson2);
+const addKey = (object, key, value) => object[key] = value
+addKey(lesson2, 'turno', 'noite');
 
 // const listKeys = (object) => console.log(Object.keys(object));
 // listKeys(lesson1);
 
-const listKeys = (object) => console.log(Object.values(object));
-listKeys(lesson1);
+// const listKeys = (object) => console.log(Object.values(object));
+// listKeys(lesson1);
+
+const newObj = (lesson1, lesson2, lesson3) => ({lesson1, lesson2, lesson3});
+console.log(newObj(lesson1, lesson2, lesson3));
