@@ -1,0 +1,23 @@
+{
+  "name": "trybe-exercicios",
+  "version": "1.0.0",
+  "description": "Esse repositório é destinado ao controle e upload dos exercícios feitos durante meu tempo como estudante no Curso de Desenvolvimento Web na Trybe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giuseppe-brandalise/trybe-exercicios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giuseppe-brandalise/trybe-exercicios/issues"
+  },
+  "homepage": "https://github.com/giuseppe-brandalise/trybe-exercicios#readme",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
