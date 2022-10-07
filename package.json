@@ -19,5 +19,8 @@
   "homepage": "https://github.com/giuseppe-brandalise/trybe-exercicios#readme",
   "devDependencies": {
     "jest": "^29.0.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
   }
 }
